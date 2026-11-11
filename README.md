@@ -11,3 +11,4 @@ npm test
 
 - Prices are in cents.
 - Shipping is a flat $7.99 per order; an empty cart ships for free.
+- Orders of $50 or more ship for free.
