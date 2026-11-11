@@ -1,0 +1,13 @@
+{
+  "name": "phada-demo",
+  "private": true,
+  "type": "module",
+  "description": "A small shopping cart, used as the demo repository of Phada.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test test/cart.test.ts"
+  }
+}
