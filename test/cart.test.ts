@@ -16,3 +16,7 @@ test('an empty cart ships for free', () => {
 test('the total adds the flat shipping', () => {
   assert.equal(totalCents([book, pen]), 3097 + FLAT_SHIPPING_CENTS)
 })
+
+test('orders over $50 ship for free', () => {
+  assert.equal(shippingCents(6000), 0)
+})
